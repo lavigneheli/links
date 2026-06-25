@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>@euhelenlavigne · Materiais Gratuitos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background-color: #F7F2EA; color: #241F2B; min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 48px 20px 64px; }
+    .container { width: 100%; max-width: 460px; }
+    .header { text-align: center; margin-bottom: 32px; }
+    .avatar { width: 88px; height: 88px; border-radius: 50%; background: linear-gradient(145deg, #E2A3B8 0%, #283C8C 100%); display: flex; align-items: center; justify-content: center; margin: 0 auto 18px; font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 700; color: #fff; letter-spacing: 1px; box-shadow: 0 6px 24px rgba(40, 60, 140, 0.20); position: relative; }
+    .avatar::after { content: ''; position: absolute; inset: -3px; border-radius: 50%; background: linear-gradient(145deg, #E2A3B8, #283C8C); z-index: -1; opacity: 0.25; }
+    .handle { font-family: 'Playfair Display', serif; font-size: 21px; font-weight: 700; color: #283C8C; margin-bottom: 10px; letter-spacing: 0.2px; }
+    .tagline { font-size: 12.5px; color: #6B6472; line-height: 1.7; font-style: italic; font-family: 'Playfair Display', serif; font-weight: 400; max-width: 320px; margin: 0 auto; }
+    .ornament { display: flex; align-items: center; gap: 10px; margin: 28px 0 22px; }
+    .orn-line { flex: 1; height: 1px; background: linear-gradient(to right, transparent, #E2A3B8 40%, #C9A86A 60%, transparent); }
+    .orn-diamond { width: 6px; height: 6px; background: #C9A86A; transform: rotate(45deg); flex-shrink: 0; }
+    .section-label { font-size: 10px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; color: #9B3F5B; text-align: center; margin-bottom: 14px; }
+    .materials { display: flex; flex-direction: column; gap: 10px; margin-bottom: 12px; }
+    .card { display: flex; align-items: center; gap: 14px; background: #fff; border-radius: 14px; padding: 15px 17px; text-decoration: none; color: #241F2B; transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease; box-shadow: 0 2px 10px rgba(36, 31, 43, 0.06); border: 1.5px solid transparent; }
+    .card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(40, 60, 140, 0.11); border-color: #F6E1E8; }
+    .card-icon { width: 44px; height: 44px; border-radius: 11px; display: flex; align-items: center; justify-content: center; font-size: 21px; flex-shrink: 0; }
+    .bg-rose { background: #F6E1E8; } .bg-blue { background: #EEF0FA; } .bg-cream { background: #F0EDE6; } .bg-gold { background: #FAF4E8; }
+    .card-body { flex: 1; min-width: 0; }
+    .card-type { font-size: 10px; font-weight: 600; color: #9B3F5B; letter-spacing: 1.8px; text-transform: uppercase; margin-bottom: 3px; }
+    .card-name { font-size: 13.5px; font-weight: 600; color: #241F2B; line-height: 1.35; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .card-arrow { color: #C9A86A; font-size: 17px; flex-shrink: 0; transition: transform 0.2s ease; }
+    .card:hover .card-arrow { transform: translateX(3px); }
+    .mini-divider { height: 1px; background: linear-gradient(to right, transparent, #E2A3B8 40%, transparent); margin: 18px 0; }
+    .email-btn { display: flex; align-items: center; justify-content: center; gap: 9px; width: 100%; padding: 14px; background: transparent; border: 2px solid #283C8C; border-radius: 12px; text-decoration: none; color: #283C8C; font-size: 12.5px; font-weight: 600; letter-spacing: 0.4px; transition: background 0.22s ease, color 0.22s ease; }
+    .email-btn:hover { background: #283C8C; color: #F7F2EA; }
+    .email-icon { font-size: 15px; }
+    .footer { text-align: center; margin-top: 44px; font-size: 11px; color: #6B6472; letter-spacing: 0.5px; }
+    .footer-heart { color: #E2A3B8; } .footer-star { color: #C9A86A; }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="avatar">HL</div>
+    <div class="handle">@euhelenlavigne</div>
+    <p class="tagline">inteligência, dedicação e resultados são treináveis.<br>vamos crescer juntas.</p>
+  </div>
+  <div class="ornament"><div class="orn-line"></div><div class="orn-diamond"></div><div class="orn-line"></div></div>
+  <div class="section-label">Materiais Gratuitos</div>
+  <div class="materials">
+    <a class="card" href="https://docs.google.com/spreadsheets/d/1T-nvqaAbna5pnsTVesDtu5tgbGOBWKE5/edit?gid=664851709#gid=664851709" target="_blank" rel="noopener noreferrer">
+      <div class="card-icon bg-rose">📊</div>
+      <div class="card-body"><div class="card-type">Planilha</div><div class="card-name">Fluency English Tracker</div></div>
+      <div class="card-arrow">→</div>
+    </a>
+    <a class="card" href="https://drive.google.com/drive/folders/1yzn00lnY7L8xqQT-gW2ChkXuep06cm7d" target="_blank" rel="noopener noreferrer">
+      <div class="card-icon bg-blue">📖</div>
+      <div class="card-body"><div class="card-type">Ebook</div><div class="card-name">Penthrox</div></div>
+      <div class="card-arrow">→</div>
+    </a>
+    <a class="card" href="https://drive.google.com/drive/folders/1p2t19EhK5XmfitR3Ul8npiBV7G-j4lad" target="_blank" rel="noopener noreferrer">
+      <div class="card-icon bg-cream">🩺</div>
+      <div class="card-body"><div class="card-type">Ebook</div><div class="card-name">Semiologia para OSCE com IA</div></div>
+      <div class="card-arrow">→</div>
+    </a>
+    <a class="card" href="https://drive.google.com/drive/folders/1p2t19EhK5XmfitR3Ul8npiBV7G-j4lad" target="_blank" rel="noopener noreferrer">
+      <div class="card-icon bg-rose">❤️</div>
+      <div class="card-body"><div class="card-type">Ebook</div><div class="card-name">Exame Físico Cardiovascular e Sopros</div></div>
+      <div class="card-arrow">→</div>
+    </a>
+    <a class="card" href="https://drive.google.com/drive/folders/1zaq5ElAJKC9z3RGPwuDqQUKkefvUK9O5" target="_blank" rel="noopener noreferrer">
+      <div class="card-icon bg-gold">💊</div>
+      <div class="card-body"><div class="card-type">Ebook</div><div class="card-name">Posologia Pediátrica Básica</div></div>
+      <div class="card-arrow">→</div>
+    </a>
+  </div>
+  <div class="mini-divider"></div>
+  <a class="email-btn" href="mailto:lavignehelen2@gmail.com"><span class="email-icon">✉</span>lavignehelen2@gmail.com</a>
+  <div class="footer"><span class="footer-star">✦</span> feito com <span class="footer-heart">♥</span> para crescermos juntas <span class="footer-star">✦</span></div>
+</div>
+</body>
+</html>
