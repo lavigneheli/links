@@ -10,8 +10,9 @@
     body { font-family: 'Inter', sans-serif; background-color: #F7F2EA; color: #241F2B; min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 48px 20px 64px; }
     .container { width: 100%; max-width: 460px; }
     .header { text-align: center; margin-bottom: 32px; }
-    .avatar { width: 88px; height: 88px; border-radius: 50%; background: linear-gradient(145deg, #E2A3B8 0%, #283C8C 100%); display: flex; align-items: center; justify-content: center; margin: 0 auto 18px; font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 700; color: #fff; letter-spacing: 1px; box-shadow: 0 6px 24px rgba(40, 60, 140, 0.20); position: relative; }
-    .avatar::after { content: ''; position: absolute; inset: -3px; border-radius: 50%; background: linear-gradient(145deg, #E2A3B8, #283C8C); z-index: -1; opacity: 0.25; }
+    .avatar-wrap { width: 96px; height: 96px; border-radius: 50%; margin: 0 auto 18px; position: relative; box-shadow: 0 6px 24px rgba(40, 60, 140, 0.22); }
+    .avatar-wrap::after { content: ''; position: absolute; inset: -3px; border-radius: 50%; background: linear-gradient(145deg, #E2A3B8, #283C8C); z-index: -1; opacity: 0.30; }
+    .avatar { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; object-position: center top; display: block; border: 3px solid #E2A3B8; }
     .handle { font-family: 'Playfair Display', serif; font-size: 21px; font-weight: 700; color: #283C8C; margin-bottom: 10px; letter-spacing: 0.2px; }
     .tagline { font-size: 12.5px; color: #6B6472; line-height: 1.7; font-style: italic; font-family: 'Playfair Display', serif; font-weight: 400; max-width: 320px; margin: 0 auto; }
     .ornament { display: flex; align-items: center; gap: 10px; margin: 28px 0 22px; }
@@ -39,7 +40,9 @@
 <body>
 <div class="container">
   <div class="header">
-    <div class="avatar">HL</div>
+    <div class="avatar-wrap">
+      <img class="avatar" src="foto.jpg" alt="@euhelenlavigne">
+    </div>
     <div class="handle">@euhelenlavigne</div>
     <p class="tagline">inteligência, dedicação e resultados são treináveis.<br>vamos crescer juntas.</p>
   </div>
